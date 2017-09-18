@@ -3,7 +3,7 @@
  * print_alphabet - prints alphabet in lowercase
  *
  * Description: print alphabet using prototype _putchar
- * Return: 0
+ * Return: void
  */
 void print_alphabet(void)
 {
