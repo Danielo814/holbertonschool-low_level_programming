@@ -15,9 +15,7 @@ int main(void)
 		b = a % 3;
 		c = a % 5;
 		if (b == 0 || c == 0)
-		{
 			d = d + a;
-		}
 	}
 	printf("%d\n", d);
 	return (0);
