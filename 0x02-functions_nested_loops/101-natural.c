@@ -10,7 +10,8 @@ int main(void)
 {
 	int a, b, c;
 	int sum;
-
+	
+	sum = 0;
 	for (a = 0; a < 1024; a++)
 	{
 		b = a % 3;
