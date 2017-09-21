@@ -1,0 +1,15 @@
+#include "holberton.h"
+/**
+ * mul - multiplies two numbers
+ * @a: first number to multiply against second
+ * @b: second number to multiply against first
+ * Description: uses arithmetic operator to multiply numbers
+ * Return: result of a times b
+ */
+int mul(int a, int b)
+{
+	int result;
+
+	result = a * b;
+	return (result);
+}
