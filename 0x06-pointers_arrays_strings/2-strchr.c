@@ -1,13 +1,13 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * strchr - returns a pointer to the first occurance
+ * _strchr - returns a pointer to the first occurance
  * @c: character to return
  * @s: string to look in
  *
  * Return: pointer to first occurance
  */
-char *strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	while (*s)
 	{
