@@ -1,5 +1,6 @@
 #ifndef __LISTSH__
 #define __LISTSH__
+#include <stddef.h>
 /**
  * struct listint_s - singly linked list
  * @n: integer
