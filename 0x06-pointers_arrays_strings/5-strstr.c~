@@ -1,0 +1,29 @@
+#include "holberton.h"
+#include <stdlib.h>
+/**
+ * _strstr - find first occurance of needle in haystack
+ * @haystack: string to search
+ * @needle: string to find
+ *
+ * Return: pointer to beginning of fstring
+ */
+char *strstr(char *haystack, char *needle)
+{
+	char *start;
+	char *b;
+
+	*start = haystack;
+	*b = needle;
+	while (*haystack)
+	{
+		while (*b == *haystack && *haystack != '\0' && *b != '\0')
+		{
+			haystack++;
+			b++;
+		}
+		if (*b == '\0')
+			return (start);
+		haystack = start++;
+	}
+	return (NULL);
+}

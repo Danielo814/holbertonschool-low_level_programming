@@ -1,0 +1,23 @@
+#include "holberton.h"
+/**
+ *
+ *
+ *
+ *
+ *
+ */
+void puts_half(char *str)
+{
+	int i, j;
+
+	i = 0;
+	while (str[i])
+		i++;
+	j = i / 2;
+	while (str[j])
+	{
+		_putchar(str[j]);
+		j++;
+	}
+	_putchar(10);
+}

@@ -1,0 +1,23 @@
+#include <stdio.h>
+/**
+ *
+ *
+ *
+ *
+ */
+int main(void)
+{
+	int a;
+
+	a = 'a';
+	while (a <= 'z')
+	{
+		if (a != 'q' && a != 'e')
+		{
+			putchar(a);
+		}
+		a = a + 1;
+	}
+	putchar('\n');
+	return (0);
+}

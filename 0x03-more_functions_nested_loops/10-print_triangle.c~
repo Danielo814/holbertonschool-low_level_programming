@@ -1,0 +1,28 @@
+#include "holberton.h"
+/**
+ * print_triangle - prints a triangle
+ * @size: number passed in from main
+ * Description: prints a triangle the size of
+ * the number passed in from main
+ * Return: void
+ */
+void print_triangle(int size)
+{
+	int row, space, pound,  j;
+
+	if (size <= 0)
+		_putchar('\n');
+	for (row = 0; row < size; row++)
+	{
+		space = size - row - 1;
+		for (j = 1; j <= space; j++)
+		{
+			_putchar(' ');
+		}
+		for(pound = 0; pound <= row; pound++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
+	}
+}

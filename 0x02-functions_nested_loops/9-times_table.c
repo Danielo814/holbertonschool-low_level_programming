@@ -36,7 +36,7 @@ void times_table(void)
 				}
 				_putchar(mult + '0');
 			}
-			if (column != 9)
+		        if (column != 9)
 			{
 				_putchar(',');
 			}

@@ -1,0 +1,22 @@
+#include "holberton.h"
+#include <stdlib.h>
+/**
+ * _strchr - returns a pointer to the first occurance
+ * @c: character to return
+ * @s: string to look in
+ *
+ * Return: pointer to first occurance
+ */
+char *strchr(char *s, char c)
+{
+	while (*s)
+	{
+		if (*s == c)
+			return (s);
+		s++;
+	}
+	if (*s == c)
+		return (s);
+	else
+		return (NULL);
+}
