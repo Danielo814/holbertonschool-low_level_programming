@@ -1,5 +1,5 @@
-#ifndef __searchalgosh__
-#define __searchalgosh__
+#ifndef __search_algosh__
+#define __search_algosh__
 
 #include <stdio.h>
 #include <stdlib.h>
